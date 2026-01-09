@@ -10,7 +10,7 @@ async function start() {
         origin: [
             'http://localhost:5173',
             'http://localhost:3000',
-            'https://sportmarketfront.onrender.com/',
+            'https://sportmarketfront.onrender.com',
             process.env.FRONTEND_URL
         ].filter(Boolean),
         methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
