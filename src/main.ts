@@ -11,6 +11,7 @@ async function start() {
             'http://localhost:5173',
             'http://localhost:3000',
             'https://sportmarketfront.onrender.com',
+            'https://sportmarket-psi.vercel.app/login',
             process.env.FRONTEND_URL
         ].filter(Boolean),
         methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
